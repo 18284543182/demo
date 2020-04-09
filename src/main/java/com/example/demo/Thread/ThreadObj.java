@@ -26,7 +26,7 @@ public class ThreadObj{
             log.info("method2方法执行完成时间:" + df.format(new Date()));// new Date()为获取当前系统时间
         }
     }
-
+    /** Git Test*/
     public static void main(String[] args) {
         //创建一个对象
         ThreadObj obj = new ThreadObj();
